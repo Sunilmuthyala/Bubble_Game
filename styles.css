@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "futura";
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(155, 184, 155);
+}
+#panel{
+    overflow: hidden;
+    height: 80%;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+#ptop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding: 0 30%;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(121, 228, 121);
+}
+.dot{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.box {
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+}
+#pbtm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: rgb(24, 194, 52);
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+}
+.bubble:hover{
+    background-color: rgb(2, 52, 2);
+}
